@@ -17,6 +17,8 @@ android {
     }
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
     defaultConfig {
         applicationId "myt.setsunal.com.mytwiceapplication"
         minSdkVersion 14
